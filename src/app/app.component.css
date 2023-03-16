@@ -1,0 +1,36 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+}
+.Container div{
+    width: 25%;
+    border: 1px black solid;
+}
+form{
+    margin-left: 1%;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formContainer>div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.formContainer>div>input{
+    width:70%;
+}
+.formContainer>div>label{
+    width: 30%;
+}
+p{
+    text-align: center;
+}
+.even{
+    background-color: lightgray;
+}
+.odd{
+    background-color: gainsboro;
+}
